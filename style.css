@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+body > * {
+  padding: 0 5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+  background-color: rgb(25, 133, 25);
+}
+.filter input {
+  width: 40rem;
+  height: 2rem;
+
+  padding: 0 10px;
+}
+
+article {
+  margin: 1rem 5rem;
+  padding: 1rem;
+
+  border: 1px solid lightgrey;
+}
+
+#item-list {
+  padding: 0.5rem 1rem;
+
+  border: 1px solid lightgrey;
+
+  list-style: none;
+}
+#item-list li {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.3rem 0;
+}
+li button {
+  background-color: red;
+  color: white;
+
+  border-style: none;
+
+  width: 2rem;
+  height: 2rem;
+}

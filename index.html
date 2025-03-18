@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS vjezba</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Item Lister</h1>
+      <form class="filter">
+        <input
+          type="text"
+          name="searchFilter"
+          id="search-input"
+          placeholder="Search items..."
+        />
+      </form>
+    </header>
+    <article>
+      <header>
+        <h2>Add Items</h2>
+        <div class="inputItem">
+          <input type="text" name="addItem" id="item-input" />
+          <button id="add-button">Submit</button>
+        </div>
+      </header>
+      <h2>Items</h2>
+      <ul id="item-list">
+        <!-- za dodavanje itema -->
+      </ul>
+    </article>
+
+    <script src="DOM.js"></script>
+  </body>
+</html>
